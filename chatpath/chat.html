@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Human interaction area</title>
+  <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+  <script defer src="script.js"></script>
+  <style>
+      
+      img {
+        opacity: 0.8;
+      }
+      img:hover {
+        opacity: 0.9;
+      }
+      b {
+        color: black;
+     }
+      ul {
+       margin-left: 50px;
+     }
+      p {
+       color: white;
+     }
+     a {
+        color: white;
+     }
+    body {
+      background: url(background.jpg);
+      background-repeat: no-repeat;
+      background-size: 1920px 1080px;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    #message-container {
+      margin-top: 15px;
+      width: 80%;
+      max-width: 1200px;
+    }
+
+    #message-container div {
+      margin-top: 2px;
+      background-color: grey;
+      opacity: 0.8;
+      padding: 5px;
+    }
+
+    #message-container div:nth-child(2n) {
+      background-color: darkgray;
+      opacity: 0.8;
+    }
+
+    #send-container {
+      opacity: 0.8;
+      position: fixed;
+      padding-bottom: 0px;
+      bottom: 0;
+      background-color: white;
+      max-width: 800px;
+      width: 80%;
+      max-height: 30px;
+      height: 10%;
+      display: flex;
+      margin-bottom: 15px;
+    }
+
+    #message-input {
+      flex-grow: 1;
+    }
+  </style>
+</head>
+<body>
+  <div id="message-container"></div>
+  <form id="send-container">
+    <input type="text" id="message-input">
+    <button type="submit" id="send-button"><img src="send.gif" alt="send button" height="25" width="50"></button>
+  </form>
+</body>
+</html>
