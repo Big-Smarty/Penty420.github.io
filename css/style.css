@@ -174,17 +174,29 @@ a:hover{
   font-family: Helvetica, serif;
 }
 .blk-title {
-  color: black;
-  opacity: 0.75;
-  font-size: 25px;
   text-align: center;
-  margin-bottom: 15px;
+  font-size: 30px;
+  padding-bottom: 4px;
+    position: relative;
+    text-decoration: none;
 }
+.blk-title::after {
+  background: #f00;
+    background: linear-gradient(to right, transparent 0%, #f00 50%, transparent 100%);  
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+}
+
 .price-cards {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  margin-top: 20px;
 }
 .price-card-cont {
   width: 300px;
@@ -192,53 +204,74 @@ a:hover{
   float: left;
 }
 .price-card {
-  min-height: 300px;
+  min-height: 200px;
   height: auto;
   margin-bottom: 30px;
-  transition: all 0.5s ease;
   font-weight: 100;
   overflow: hidden;
   border-style: hidden;
-  border-radius: 7px;
+  border-radius: 15px;
   border-width: 1px;
-  transition: all 0.5s ease;
-}
-.price-card:hover{
-  margin-top: -5px;
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
 }
 
 .pc-title {
-  font-weight: 100;
-  letter-spacing: 3px;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 35px;
   text-align: center;
-  font-size: 25px;
-  padding: 30px;
-  opacity: 0.9;
-  border-style: groove;
-  border-radius: 7px;
-  height: auto;
-  background-color: white;
+  padding: 75px 0;
+  transition: all 0.5s ease;
+  background: 
+  linear-gradient(#ffffff,#ffffff) padding-box, 
+  linear-gradient(to right, #00FFFF, #fb3570) border-box;
+    padding:10px;
+    border: 3px solid transparent;
+    border-radius:15px;
+    display:inline-block;
 }
+.pc-title:hover {
+  margin-top: 0px;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
 .pc-desc {
-  padding: 60px 0;
+  margin-top: 5px;
+  width: 100%;
+  font-size: 35px;
   text-align: center;
-  opacity: 0.9;
-  border-style: groove;
-  border-radius: 7px;
-  height: auto;
-  background-color: white;
+  padding: 75px 0;
+  transition: all 0.5s ease;
+  background: 
+     linear-gradient(#ffffff,#ffffff) padding-box, 
+     linear-gradient(to right, #00FFFF, #fb3570) border-box;
+    padding:10px;
+    border: 3px solid transparent;
+    border-radius:15px;
+    display:inline-block;
+}
+.pc-desc:hover {
+  margin-top: 0px;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
 }
 
 .pc-amount {
+  margin-top: 5px;
+  width: 100%;
   font-size: 35px;
   text-align: center;
-  padding: 50px 0;
-  opacity: 0.9;
-  border-style: groove;
-  border-radius: 7px;
-  height: auto;
-  background-color: white;
+  padding: 75px 0;
+  transition: all 0.5s ease;
+  background: 
+  linear-gradient(#ffffff,#ffffff) padding-box, 
+  linear-gradient(to right, #00FFFF, #fb3570) border-box;
+    padding:10px;
+    border: 3px solid transparent;
+    border-radius:15px;
+    display:inline-block;
+}
+.pc-amount:hover {
+  margin-top: 0px;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
 }
 
 .pc-enterprise {
