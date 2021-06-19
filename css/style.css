@@ -120,6 +120,7 @@ a:hover{
   overflow: hidden;
   border-style: hidden;
   border-radius: 7px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
 }
 .card:hover {
   margin-top: -5px;
@@ -199,12 +200,12 @@ a:hover{
   margin-top: 20px;
 }
 .price-card-cont {
-  width: 300px;
+  min-width: 200px;
+  max-width: 400px;
   height: 450px;
   float: left;
 }
 .price-card {
-  min-height: 200px;
   height: auto;
   margin-bottom: 30px;
   font-weight: 100;
@@ -216,62 +217,81 @@ a:hover{
 
 .pc-title {
   margin-top: 10px;
-  width: 100%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  width: 75%;
   font-size: 35px;
   text-align: center;
   padding: 75px 0;
   transition: all 0.5s ease;
   background: 
   linear-gradient(#ffffff,#ffffff) padding-box, 
-  linear-gradient(to right, #00FFFF, #fb3570) border-box;
+  linear-gradient(to right, #FF4500, #00FFFF) border-box;
     padding:10px;
     border: 3px solid transparent;
     border-radius:15px;
     display:inline-block;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
 }
 .pc-title:hover {
   margin-top: 0px;
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+  background: 
+  linear-gradient(#ffffff,#ffffff) padding-box, 
+  linear-gradient(to right, skyblue, springgreen) border-box;
 }
 
 .pc-desc {
   margin-top: 5px;
-  width: 100%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  width: 75%;
   font-size: 35px;
   text-align: center;
   padding: 75px 0;
   transition: all 0.5s ease;
   background: 
      linear-gradient(#ffffff,#ffffff) padding-box, 
-     linear-gradient(to right, #00FFFF, #fb3570) border-box;
+     linear-gradient(to right, #FF4500, #00FFFF) border-box;
     padding:10px;
     border: 3px solid transparent;
     border-radius:15px;
     display:inline-block;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
 }
 .pc-desc:hover {
   margin-top: 0px;
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+  background: 
+  linear-gradient(#ffffff,#ffffff) padding-box, 
+  linear-gradient(to right, skyblue, springgreen) border-box;
 }
 
 .pc-amount {
   margin-top: 5px;
-  width: 100%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-bottom: 40px;
+  width: 75%;
   font-size: 35px;
   text-align: center;
   padding: 75px 0;
   transition: all 0.5s ease;
   background: 
   linear-gradient(#ffffff,#ffffff) padding-box, 
-  linear-gradient(to right, #00FFFF, #fb3570) border-box;
+  linear-gradient(to right, #FF4500, #00FFFF) border-box;
     padding:10px;
     border: 3px solid transparent;
     border-radius:15px;
     display:inline-block;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
 }
 .pc-amount:hover {
   margin-top: 0px;
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+  background: 
+  linear-gradient(#ffffff,#ffffff) padding-box, 
+  linear-gradient(to right, skyblue, springgreen) border-box;
 }
 
 .pc-enterprise {
@@ -321,7 +341,9 @@ a:hover{
   color: rgba(238, 238, 238, 0.8);
   font-size: 0.8em;
   padding: 0.5em 0;
+  transition: all 0.3s ease;
 }
+
 .foot-list-item:hover {
   color: rgba(238, 238, 238, 1);
 }
