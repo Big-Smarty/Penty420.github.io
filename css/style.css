@@ -238,7 +238,7 @@ a:hover{
   transition: all 0.5s ease;
   background: 
   linear-gradient(#ffffff,#ffffff) padding-box, 
-  linear-gradient(to right, aqua, darkblue) border-box;
+  linear-gradient(to right, red, darkblue) border-box;
     padding:10px;
     border: 3px solid transparent;
     border-radius:15px;
@@ -263,7 +263,7 @@ a:hover{
   transition: all 0.5s ease;
   background: 
   linear-gradient(#ffffff,#ffffff) padding-box, 
-  linear-gradient(to right, aqua, darkblue) border-box;
+  linear-gradient(to right, red, darkblue) border-box;
     padding:10px;
     border: 3px solid transparent;
     border-radius:15px;
@@ -289,7 +289,7 @@ a:hover{
   transition: all 0.5s ease;
   background: 
   linear-gradient(#ffffff,#ffffff) padding-box, 
-  linear-gradient(to right, aqua, darkblue) border-box;
+  linear-gradient(to right, red, darkblue) border-box;
     padding:10px;
     border: 3px solid transparent;
     border-radius:15px;
@@ -355,7 +355,8 @@ a:hover{
 }
 
 .foot-list-item:hover {
-  color: rgba(238, 238, 238, 1);
+  color: mediumblue;
+  opacity: 0.8;
 }
 * {
   box-sizing: border-box;
