@@ -22,7 +22,8 @@ a:hover{
   color: #ffffff;
   font-family: Helvetica, serif;
   font-weight: 100;
-  background-image: linear-gradient(red, skyblue);
+  background-image: linear-gradient(to right, black , darkblue);
+  opacity: 0.9;
   background-position: left top, center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,19 +88,21 @@ a:hover{
 .flex-sect {
   padding: 100px 0;
   font-family: Helvetica, serif;
+  background-color: black;
+  opacity: 0.8;
 }
 .flex-title {
   margin-bottom: 15px;
   font-size: 2em;
   text-align: center;
   font-weight: 700;
-  color: #555;
+  color: white;
   padding: 5px;
 }
 .flex-desc {
   margin-bottom: 55px;
   font-size: 1em;
-  color: rgba(0, 0, 0, 0.5);
+  color: white;
   text-align: center;
   padding: 5px;
 }
@@ -167,14 +170,18 @@ a:hover{
   padding-top: 30px;
   padding-bottom: 20px;
   font-family: Helvetica, serif;
-  background-color: Black;
+  background-color: gold;
 }
 .blk-sect {
   padding-top: 100px;
   padding-bottom: 100px;
   font-family: Helvetica, serif;
+  background-color: black;
+  opacity: 0.8;
 }
 .blk-title {
+  color: red;
+  opacity: 0.8;
   text-align: center;
   font-size: 30px;
   padding-bottom: 4px;
@@ -198,7 +205,9 @@ a:hover{
   align-items: center;
   justify-content: space-around;
   margin-top: 20px;
+  opacity: 0.9;
 }
+
 .price-card-cont {
   min-width: 200px;
   max-width: 400px;
@@ -239,6 +248,7 @@ a:hover{
   background: 
   linear-gradient(#ffffff,#ffffff) padding-box, 
   linear-gradient(to right, skyblue, springgreen) border-box;
+  opacity: 1;
 }
 
 .pc-desc {
@@ -265,6 +275,7 @@ a:hover{
   background: 
   linear-gradient(#ffffff,#ffffff) padding-box, 
   linear-gradient(to right, skyblue, springgreen) border-box;
+  opacity: 1;
 }
 
 .pc-amount {
@@ -292,13 +303,15 @@ a:hover{
   background: 
   linear-gradient(#ffffff,#ffffff) padding-box, 
   linear-gradient(to right, skyblue, springgreen) border-box;
+  opacity: 1;
 }
 
 .pc-enterprise {
   background-color: #d66a96;
 }
 .footer-under {
-  background-image: linear-gradient(skyblue, darkblue);
+  background-color: black;
+  opacity: 0.9;
   padding-bottom: 10px;
   padding-top: 50px;
   min-height: 300px;
@@ -392,9 +405,7 @@ body {
   background-attachment: scroll;
   background-size: auto;
 }
-#iaugk {
-  opacity: 0.8;
-}
+
 #imz1dz {
   background-repeat: repeat;
   background-position: left top;
@@ -467,9 +478,6 @@ body {
 }
 
 #iu69e2 {
-  opacity: 0.8;
-}
-#iknxg {
   opacity: 0.8;
 }
 @media (max-width: 480px) {
