@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<meta property="og:image" content="https://c.tenor.com/wtv7ADhTUD4AAAAi/dance-happy.gif">
+<meta property="og:image" content="https://tenor.com/view/cat-vibing-jam-gif-18774874">
 <meta property="og:type" content="video.other">
 <meta property="og:video:url" content="https://youtu.be/dQw4w9WgXcQ">
 <meta property="og:video:width" content="1280">
